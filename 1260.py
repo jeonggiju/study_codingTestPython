@@ -34,7 +34,6 @@ def main():
         graphList[edgeInfo[i][1]-1][edgeInfo[i][0]-1] = 1
 
     visited = [False for _ in range(vertex)]
-
     dfs(graphList, visited, startVertex-1)
     print()
     bfs(graphList, startVertex-1)
