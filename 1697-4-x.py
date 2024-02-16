@@ -18,7 +18,6 @@ def bfs(startPoint, findPoint):
             for j in [current[0]*2, current[0]-1, current[0]+1]:
                 if j <= maxNum and j not in visited:
                     queue.append([j, current[1]+1])
-                     
 def main():
     input = sys.stdin.readline
     startPoint, findPoint = map(int, input().split())
