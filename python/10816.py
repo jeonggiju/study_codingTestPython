@@ -20,3 +20,4 @@ for i in range(m):
         print(myCard[arr[i]], end=" ")
     except:
         print(0, end=" ")
+print("끝")
