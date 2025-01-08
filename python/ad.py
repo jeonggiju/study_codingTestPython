@@ -1,1065 +1,456 @@
-import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+n = int(input())
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
+for i in qu:
+    st.append(i)
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
 
+n = int(input())
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+for i in qu:
+    st.append(i)
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+n = int(input())
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
+for i in qu:
+    st.append(i)
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
 
+n = int(input())
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+for i in qu:
+    st.append(i)
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+n = int(input())
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
+for i in qu:
+    st.append(i)
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
 
+n = int(input())
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+for i in qu:
+    st.append(i)
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+n = int(input())
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
+for i in qu:
+    st.append(i)
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
 
+n = int(input())
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+for i in qu:
+    st.append(i)
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+n = int(input())
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
+for i in qu:
+    st.append(i)
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
 
+n = int(input())
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+for i in qu:
+    st.append(i)
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+n = int(input())
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
+for i in qu:
+    st.append(i)
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
 
+n = int(input())
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+for i in qu:
+    st.append(i)
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+n = int(input())
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
+for i in qu:
+    st.append(i)
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
 
+n = int(input())
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+for i in qu:
+    st.append(i)
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+n = int(input())
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
+for i in qu:
+    st.append(i)
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
 
+n = int(input())
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+for i in qu:
+    st.append(i)
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+n = int(input())
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
+for i in qu:
+    st.append(i)
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
 
+n = int(input())
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+for i in qu:
+    st.append(i)
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+n = int(input())
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
+for i in qu:
+    st.append(i)
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
 
+n = int(input())
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+for i in qu:
+    st.append(i)
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+n = int(input())
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
+for i in qu:
+    st.append(i)
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
 
+n = int(input())
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+for i in qu:
+    st.append(i)
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+n = int(input())
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
+qu = list(map(int, input().split()))
+st = []
+i = 1
 
+for i in qu:
+    st.append(i)
 
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
 
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
+if st:
+    print("Sad")
+else:
+    print("Nice")
 
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
-
-
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
-
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
-
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
-
-
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
-
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
-
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
-
-
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
-
-for i in range(len(result)):
-    print(result[i])import sys
-
-input = sys.stdin.readline
-
-num = int(input())
-result = []
-
-for i in range(num):
-    std = input().rstrip()
-    st = []
-
-    for j in range(len(std)):
-        if std[j] == "(":
-            st.append("(")
-        else:
-            if st:
-                st.pop()
-            else:
-                st.append("-")
-                break
-
-
-    if len(st) == 0 :
-        result.append("YES")
-    elif len(st) != 0 :
-        result.append("NO")
-
-for i in range(len(result)):
-    print(result[i])
+
+n = int(input())
+
+qu = list(map(int, input().split()))
+st = []
+i = 1
+
+for i in qu:
+    st.append(i)
+
+    while st and st[-1] == i:
+        st.pop()
+        i+=1
+
+if st:
+    print("Sad")
+else:
+    print("Nice")
+
+
